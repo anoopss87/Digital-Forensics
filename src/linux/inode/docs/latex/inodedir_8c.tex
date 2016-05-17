@@ -1,0 +1,152 @@
+\hypertarget{inodedir_8c}{\section{src/inodedir.c File Reference}
+\label{inodedir_8c}\index{src/inodedir.\+c@{src/inodedir.\+c}}
+}
+{\ttfamily \#include \char`\"{}inodeinc.\+h\char`\"{}}\\*
+Include dependency graph for inodedir.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodedir_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+N\+T4 \hyperlink{inodedir_8c_a648f1f0adeeb821396ff675be7ce3a0a}{Inode\+Dir\+Validate\+Inode} (U\+I\+N\+T4 u4\+Inode\+No, U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodedir_8c_a9513ab1ee8f7fcc872a1f5c14af8a985}{Inode\+Dir\+Read\+Record} (C\+H\+A\+R $\ast$p\+Entries, U\+I\+N\+T4 u4\+Start\+Pos, struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry)
+\item 
+I\+N\+T4 \hyperlink{inodedir_8c_a90a015688692be14fcbf9ad6f52b24b2}{Inode\+Dir\+Validate\+Data\+Block} (C\+H\+A\+R $\ast$p\+Entries)
+\item 
+I\+N\+T4 \hyperlink{inodedir_8c_a89c0632678345a3ec36ec25c31872df4}{Inode\+Dir\+Change\+Parent\+Entry} (struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry, U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodedir_8c_ab78d127da1b1fe403246e840bd3862eb}{Inode\+Dir\+Add\+Child\+Entry} (struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+New\+Child, U\+I\+N\+T4 u4\+Block\+No)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodedir_8c_ab78d127da1b1fe403246e840bd3862eb}{\index{inodedir.\+c@{inodedir.\+c}!Inode\+Dir\+Add\+Child\+Entry@{Inode\+Dir\+Add\+Child\+Entry}}
+\index{Inode\+Dir\+Add\+Child\+Entry@{Inode\+Dir\+Add\+Child\+Entry}!inodedir.\+c@{inodedir.\+c}}
+\subsubsection[{Inode\+Dir\+Add\+Child\+Entry}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Add\+Child\+Entry (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+New\+Child, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodedir_8c_ab78d127da1b1fe403246e840bd3862eb}
+
+
+ Function Name \+: Inode\+Dir\+Add\+Child\+Entry
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used to add a child entry to a directory inode. The new entry would be appended at the end of the last entry.
+
+Input \+: p\+Dir\+Entry -\/ new child entry u4\+Block\+No -\/ the directory data block where the child entry needs to be changed Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the child entry is addded successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodedir_8c_ab78d127da1b1fe403246e840bd3862eb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodedir_8c_a89c0632678345a3ec36ec25c31872df4}{\index{inodedir.\+c@{inodedir.\+c}!Inode\+Dir\+Change\+Parent\+Entry@{Inode\+Dir\+Change\+Parent\+Entry}}
+\index{Inode\+Dir\+Change\+Parent\+Entry@{Inode\+Dir\+Change\+Parent\+Entry}!inodedir.\+c@{inodedir.\+c}}
+\subsubsection[{Inode\+Dir\+Change\+Parent\+Entry}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Change\+Parent\+Entry (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodedir_8c_a89c0632678345a3ec36ec25c31872df4}
+
+
+ Function Name \+: Inode\+Dir\+Change\+Parent\+Entry
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used to change the parent directory entry of a directory inode.
+
+Input \+: p\+Dir\+Entry -\/ new parent entry u4\+Block\+No -\/ the directory data block where the parent entry needs to be changed Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the parent is changed successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodedir_8c_a89c0632678345a3ec36ec25c31872df4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodedir_8c_a9513ab1ee8f7fcc872a1f5c14af8a985}{\index{inodedir.\+c@{inodedir.\+c}!Inode\+Dir\+Read\+Record@{Inode\+Dir\+Read\+Record}}
+\index{Inode\+Dir\+Read\+Record@{Inode\+Dir\+Read\+Record}!inodedir.\+c@{inodedir.\+c}}
+\subsubsection[{Inode\+Dir\+Read\+Record}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Read\+Record (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Entries, }
+\item[{U\+I\+N\+T4}]{u4\+Start\+Pos, }
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry}
+\end{DoxyParamCaption}
+)}}\label{inodedir_8c_a9513ab1ee8f7fcc872a1f5c14af8a985}
+
+
+ Function Name \+: Inode\+Dir\+Read\+Record
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to read a directory entry from the data block of a directory inode.
+
+Input \+: p\+Entries -\/ Buffer containing the contents of the data block u4\+Start\+Pos -\/ Offset to start reading
+
+Output \+: p\+Dir\+Entry -\/ the directory entry read from the block
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the entry is read successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodedir_8c_a90a015688692be14fcbf9ad6f52b24b2}{\index{inodedir.\+c@{inodedir.\+c}!Inode\+Dir\+Validate\+Data\+Block@{Inode\+Dir\+Validate\+Data\+Block}}
+\index{Inode\+Dir\+Validate\+Data\+Block@{Inode\+Dir\+Validate\+Data\+Block}!inodedir.\+c@{inodedir.\+c}}
+\subsubsection[{Inode\+Dir\+Validate\+Data\+Block}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Validate\+Data\+Block (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Entries}
+\end{DoxyParamCaption}
+)}}\label{inodedir_8c_a90a015688692be14fcbf9ad6f52b24b2}
+
+
+ Function Name \+: Inode\+Dir\+Validate\+Data\+Block
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to check if a data block is a directory data block or not. If the data block contains directory entries, then it is a valid directory data block.
+
+Input \+: p\+Entries -\/ Buffer containing the contents of the data block Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the data block is a valid directory data block I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodedir_8c_a648f1f0adeeb821396ff675be7ce3a0a}{\index{inodedir.\+c@{inodedir.\+c}!Inode\+Dir\+Validate\+Inode@{Inode\+Dir\+Validate\+Inode}}
+\index{Inode\+Dir\+Validate\+Inode@{Inode\+Dir\+Validate\+Inode}!inodedir.\+c@{inodedir.\+c}}
+\subsubsection[{Inode\+Dir\+Validate\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Validate\+Inode (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodedir_8c_a648f1f0adeeb821396ff675be7ce3a0a}
+
+
+ Function Name \+: Inode\+Dir\+Validate\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to validate a directory inode. A directory inode is valid if the data block pointer points to the actual data block of inode. If the data block pointer is corrupted, then the directory inode is invalid.
+
+Input \+: u4\+Inode\+No -\/ Directory Inode number u4\+Block\+No -\/ data block pointed by the inode's first direct block pointer Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the inode is a valid directory inode I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodedir_8c_a648f1f0adeeb821396ff675be7ce3a0a_cgraph}
+\end{center}
+\end{figure}
+
+

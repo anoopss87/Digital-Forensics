@@ -1,0 +1,5 @@
+<map id="InodeDirAddChildEntry" name="InodeDirAddChildEntry">
+<area shape="rect" id="node2" href="$inodeproto_8h.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="209,5,375,32"/>
+<area shape="rect" id="node3" href="$inodedir_8c.html#a9513ab1ee8f7fcc872a1f5c14af8a985" title="InodeDirReadRecord" alt="" coords="220,56,364,83"/>
+<area shape="rect" id="node4" href="$inodeproto_8h.html#af4e29989b8cc9424603a4825af3491a0" title="InodeUtilWriteDataBlock" alt="" coords="209,107,375,133"/>
+</map>

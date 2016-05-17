@@ -1,0 +1,192 @@
+\hypertarget{inodecli_8c}{\section{src/inodecli.c File Reference}
+\label{inodecli_8c}\index{src/inodecli.\+c@{src/inodecli.\+c}}
+}
+{\ttfamily \#include \char`\"{}inodeinc.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}inodecli.\+h\char`\"{}}\\*
+Include dependency graph for inodecli.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8c_aa0b53520e1018955fde7aea285159808}{Inode\+Cli\+Start} ()
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8c_adde588bd205c9ef530fa02ef8f48cf69}{Inode\+Cli\+Handle\+Cmd} (C\+H\+A\+R $\ast$p\+Cmd)
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8c_a3157714cddf8864e002915be47a6cef5}{Inode\+Cli\+Cmd\+Action} (\hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} cmd)
+\item 
+I\+N\+T1 \hyperlink{inodecli_8c_adaf1a711f6592434c4f1280c0a92fd22}{Inode\+Cli\+Parse\+Cmd} (C\+H\+A\+R $\ast$p\+Cmd\+Str, \hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} $\ast$p\+Cmd)
+\item 
+I\+N\+T1 \hyperlink{inodecli_8c_af594f3b863f653a969da942bc1cafe7c}{Inode\+Cli\+Validate\+Cmd} (\hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} $\ast$p\+Cmd, U\+I\+N\+T1 u1\+Arg\+C)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{inodecli_8h_a25509e56046d94d7ebcb24fb035f12c1}{t\+Cmd} \hyperlink{inodecli_8c_a72a268537701a29a14740ed4d190f1f0}{g\+Commands} \mbox{[}\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0b2e221172240c1b6e6cea012317fb16}{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}\mbox{]}
+\item 
+U\+I\+N\+T1 \hyperlink{inodecli_8c_ac732f1e6c26e35b8e7fbb38498b415e4}{gu1\+Exit}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodecli_8c_a3157714cddf8864e002915be47a6cef5}{\index{inodecli.\+c@{inodecli.\+c}!Inode\+Cli\+Cmd\+Action@{Inode\+Cli\+Cmd\+Action}}
+\index{Inode\+Cli\+Cmd\+Action@{Inode\+Cli\+Cmd\+Action}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{Inode\+Cli\+Cmd\+Action}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Cmd\+Action (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+Command}}]{cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8c_a3157714cddf8864e002915be47a6cef5}
+
+
+ Function Name \+: Inode\+Cli\+Cmd\+Action
+
+Description \+: This Function is the overall action handler. This function identifies the command and the action to be taken for the command.
+
+Input \+: cmd -\/ structure containing the parsed command and arguments
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8c_a3157714cddf8864e002915be47a6cef5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8c_adde588bd205c9ef530fa02ef8f48cf69}{\index{inodecli.\+c@{inodecli.\+c}!Inode\+Cli\+Handle\+Cmd@{Inode\+Cli\+Handle\+Cmd}}
+\index{Inode\+Cli\+Handle\+Cmd@{Inode\+Cli\+Handle\+Cmd}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{Inode\+Cli\+Handle\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Handle\+Cmd (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8c_adde588bd205c9ef530fa02ef8f48cf69}
+
+
+ Function Name \+: Inode\+Cli\+Handle
+
+Description \+: This Function tries to parse the command input and if it succeeds then calls the high level action handler function with the parsed command.
+
+Input \+: p\+Cmd -\/ Command string input from the user
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8c_adde588bd205c9ef530fa02ef8f48cf69_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8c_adaf1a711f6592434c4f1280c0a92fd22}{\index{inodecli.\+c@{inodecli.\+c}!Inode\+Cli\+Parse\+Cmd@{Inode\+Cli\+Parse\+Cmd}}
+\index{Inode\+Cli\+Parse\+Cmd@{Inode\+Cli\+Parse\+Cmd}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{Inode\+Cli\+Parse\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T1 Inode\+Cli\+Parse\+Cmd (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Cmd\+Str, }
+\item[{{\bf t\+Command} $\ast$}]{p\+Cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8c_adaf1a711f6592434c4f1280c0a92fd22}
+
+
+ Function Name \+: Inode\+Cli\+Parse\+Cmd
+
+Description \+: This Function is used to parse the input command string into the command and arguments.
+
+Input \+: p\+Cmd\+Str -\/ input command string
+
+Output \+: p\+Cmd -\/ structure containing parsed command and arguments
+
+Returns \+: T\+R\+U\+E, if parsing and validation succeeds F\+A\+L\+S\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{inodecli_8c_adaf1a711f6592434c4f1280c0a92fd22_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8c_aa0b53520e1018955fde7aea285159808}{\index{inodecli.\+c@{inodecli.\+c}!Inode\+Cli\+Start@{Inode\+Cli\+Start}}
+\index{Inode\+Cli\+Start@{Inode\+Cli\+Start}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{Inode\+Cli\+Start}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8c_aa0b53520e1018955fde7aea285159808}
+
+
+ Function Name \+: Inode\+Cli\+Start
+
+Description \+: This Function is used to start the command line interface. This function reads the command input from the user and initiates the action for the command.
+
+Input \+: None
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8c_aa0b53520e1018955fde7aea285159808_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8c_af594f3b863f653a969da942bc1cafe7c}{\index{inodecli.\+c@{inodecli.\+c}!Inode\+Cli\+Validate\+Cmd@{Inode\+Cli\+Validate\+Cmd}}
+\index{Inode\+Cli\+Validate\+Cmd@{Inode\+Cli\+Validate\+Cmd}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{Inode\+Cli\+Validate\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T1 Inode\+Cli\+Validate\+Cmd (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+Command} $\ast$}]{p\+Cmd, }
+\item[{U\+I\+N\+T1}]{u1\+Arg\+C}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8c_af594f3b863f653a969da942bc1cafe7c}
+
+
+ Function Name \+: Inode\+Cli\+Validate\+Cmd
+
+Description \+: This Function is used to validate the parsed command and arguments
+
+Input \+: p\+Cmd -\/ pointer to the parsed command structure u1\+Arg\+C -\/ no. of arguments in the command input
+
+Output \+: None
+
+Returns \+: T\+R\+U\+E, if validation succeeds F\+A\+L\+S\+E otherwise 
+
+\subsection{Variable Documentation}
+\hypertarget{inodecli_8c_a72a268537701a29a14740ed4d190f1f0}{\index{inodecli.\+c@{inodecli.\+c}!g\+Commands@{g\+Commands}}
+\index{g\+Commands@{g\+Commands}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{g\+Commands}]{\setlength{\rightskip}{0pt plus 5cm}{\bf t\+Cmd} g\+Commands\mbox{[}{\bf C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}\mbox{]}}}\label{inodecli_8c_a72a268537701a29a14740ed4d190f1f0}
+{\bfseries Initial value\+:}
+\begin{DoxyCode}
+= \{
+                \{.Name = \hyperlink{inodecli_8h_a42553adbbb23a03ca876697c00ea44b1}{CMD\_HELP}, .HelpStr = \hyperlink{inodecli_8h_a10620eb7066bd16d02eae9ab03365193}{CMD\_HELP\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a4ef842c2bc3e123c98c9379f40a2ab62}{CMD\_CLEAR}, .HelpStr = \hyperlink{inodecli_8h_ad7afbb455c5f2d60f701118f115080d8}{CMD\_CLEAR\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_acfa1d482ab47b3ceebb9717007111649}{CMD\_EXIT}, .HelpStr = \hyperlink{inodecli_8h_a111d2461881013f301a9f648ac24f601}{CMD\_EXIT\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a7391deb9c3a262ded3e186e94eb884e2}{CMD\_WRITE}, .HelpStr = \hyperlink{inodecli_8h_a78cd212696a7b049d87aada2a470c965}{CMD\_WRITE\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a286bb7f4b865450f58250d939cf45d90}{CMD\_INODE}, .HelpStr = \hyperlink{inodecli_8h_a7b7763747cb82fcd19aa8dd28e30a071}{CMD\_INODE\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a9c953a6c538020e644127ee080608021}{CMD\_READ}, .HelpStr = \hyperlink{inodecli_8h_a03adb8dfb4cdd3faba8978163aaf8c93}{CMD\_READ\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a3d2223fa832ff3a2aeb97888ce9856f9}{CMD\_DIR}, .HelpStr = \hyperlink{inodecli_8h_a5474da458a635be412d5704a02f0df83}{CMD\_DIR\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a7517d4f10c0034f27827f5cfe77cf52a}{CMD\_TREE}, .HelpStr = \hyperlink{inodecli_8h_a9008063814b97ecefc54f5a46e19b340}{CMD\_TREE\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a430ac043851c4efc20762af91d89f7b9}{CMD\_CORRUPT}, .HelpStr = \hyperlink{inodecli_8h_a57a92b33d047525dc9e69eb72de6269e}{CMD\_CORRUPT\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_a68980ecdee8879dfba5618de489ca766}{CMD\_FIX}, .HelpStr = \hyperlink{inodecli_8h_af2e6404e0cf07b14693e23d54937f010}{CMD\_FIX\_HELP}\},
+                \{.Name = \hyperlink{inodecli_8h_aebfe91c6148b6492ffab5cdd7ced8b70}{CMD\_RECOVER}, .HelpStr = \hyperlink{inodecli_8h_ab151080fd3feb4380a5bd65353ce60d5}{CMD\_RECOVER\_HELP}\},
+                
+                \}
+\end{DoxyCode}
+\hypertarget{inodecli_8c_ac732f1e6c26e35b8e7fbb38498b415e4}{\index{inodecli.\+c@{inodecli.\+c}!gu1\+Exit@{gu1\+Exit}}
+\index{gu1\+Exit@{gu1\+Exit}!inodecli.\+c@{inodecli.\+c}}
+\subsubsection[{gu1\+Exit}]{\setlength{\rightskip}{0pt plus 5cm}U\+I\+N\+T1 gu1\+Exit}}\label{inodecli_8c_ac732f1e6c26e35b8e7fbb38498b415e4}

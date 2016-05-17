@@ -1,0 +1,8 @@
+<map id="InodeUtilPrintInode" name="InodeUtilPrintInode">
+<area shape="rect" id="node2" href="$inodeutil_8c.html#a8c820c9998f3a81b0b7efb2336e3ebc4" title="InodeUtilReadInode" alt="" coords="190,31,327,57"/>
+<area shape="rect" id="node6" href="$inodeutil_8c.html#a63b7552b4e10719ea82758cb689850a8" title="InodeUtilIsFreeInode" alt="" coords="187,81,330,108"/>
+<area shape="rect" id="node7" href="$inodeutil_8c.html#a02fc70420f966503493dcee4f275951c" title="InodeUtilDumpInode" alt="" coords="188,132,329,159"/>
+<area shape="rect" id="node3" href="$inodeutil_8c.html#a5aa634acb8fba879d55a5de096d3997c" title="InodeUtilGetInodeOffset" alt="" coords="379,5,541,32"/>
+<area shape="rect" id="node4" href="$inodeutil_8c.html#a3add91b54cfb3e27f802ac8ab1b9ceb4" title="InodeUtilReadDataOffset" alt="" coords="590,31,759,57"/>
+<area shape="rect" id="node5" href="$inodeutil_8c.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="809,31,975,57"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="InodeFixRootDataBlockPtr" name="InodeFixRootDataBlockPtr">
+<area shape="rect" id="node2" href="$inodeproto_8h.html#a07685cf3d25b03c9e975af7d0f22ca81" title="InodeUtilGetInodeOffset" alt="" coords="236,5,399,32"/>
+<area shape="rect" id="node5" href="$inodeproto_8h.html#a9671fcb9023997872ade29c0241b0cab" title="InodeUtilWriteDataOffset" alt="" coords="233,56,402,83"/>
+<area shape="rect" id="node3" href="$inodeutil_8c.html#a3add91b54cfb3e27f802ac8ab1b9ceb4" title="InodeUtilReadDataOffset" alt="" coords="451,5,621,32"/>
+<area shape="rect" id="node4" href="$inodeutil_8c.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="670,5,837,32"/>
+<area shape="rect" id="node6" href="$inodeutil_8c.html#af4e29989b8cc9424603a4825af3491a0" title="InodeUtilWriteDataBlock" alt="" coords="453,56,619,83"/>
+</map>

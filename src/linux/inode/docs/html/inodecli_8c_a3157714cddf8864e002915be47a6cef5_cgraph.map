@@ -1,0 +1,35 @@
+<map id="InodeCliCmdAction" name="InodeCliCmdAction">
+<area shape="rect" id="node2" href="$inodecli_8h.html#a1869e2775252da9a36ecca18ce8198d1" title="InodeCmdTreeHandler" alt="" coords="193,332,346,359"/>
+<area shape="rect" id="node15" href="$inodeproto_8h.html#a45685e5c715aa741d487eae77c1083ae" title="InodeUtilPrintInode" alt="" coords="203,137,336,164"/>
+<area shape="rect" id="node18" href="$inodeproto_8h.html#a0bb419219a634fdfbb0e32df8fd4f937" title="InodeUtilPrintDirDataBlock" alt="" coords="643,169,821,196"/>
+<area shape="rect" id="node19" href="$inodecli_8h.html#a1635e6bd723f78d1355e30c815348a34" title="InodeCmdReadHandler" alt="" coords="190,752,349,779"/>
+<area shape="rect" id="node21" href="$inodeproto_8h.html#ae4aa54c12d8e18c272feab11068a1cfb" title="InodeUtilCorruptAndRecover" alt="" coords="1096,119,1285,145"/>
+<area shape="rect" id="node25" href="$inodeproto_8h.html#a0cf855704a34cb63b52487e75b12052c" title="InodeFixExecute" alt="" coords="899,499,1019,525"/>
+<area shape="rect" id="node3" href="$inodeproto_8h.html#af3bd13d59e79a9c574862e0a42ac1ac2" title="InodeUtilPrintTree" alt="" coords="433,337,559,364"/>
+<area shape="rect" id="node4" href="$inodeutil_8c.html#a8c820c9998f3a81b0b7efb2336e3ebc4" title="InodeUtilReadInode" alt="" coords="1122,245,1259,272"/>
+<area shape="rect" id="node8" href="$inodeproto_8h.html#a648f1f0adeeb821396ff675be7ce3a0a" title="InodeDirValidateInode" alt="" coords="1115,701,1266,728"/>
+<area shape="rect" id="node10" href="$inodeutil_8c.html#a6474c5fd62b8ca4f7745428690849175" title="InodeUtilPrintChildren" alt="" coords="657,347,807,373"/>
+<area shape="rect" id="node5" href="$inodeutil_8c.html#a5aa634acb8fba879d55a5de096d3997c" title="InodeUtilGetInodeOffset" alt="" coords="1353,220,1516,247"/>
+<area shape="rect" id="node6" href="$inodeutil_8c.html#a3add91b54cfb3e27f802ac8ab1b9ceb4" title="InodeUtilReadDataOffset" alt="" coords="1585,271,1754,297"/>
+<area shape="rect" id="node7" href="$inodeutil_8c.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="1803,271,1970,297"/>
+<area shape="rect" id="node9" href="$inodeproto_8h.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="1351,676,1518,703"/>
+<area shape="rect" id="node11" href="$inodeproto_8h.html#a90a015688692be14fcbf9ad6f52b24b2" title="InodeDirValidateDataBlock" alt="" coords="869,195,1048,221"/>
+<area shape="rect" id="node12" href="$inodeproto_8h.html#a9513ab1ee8f7fcc872a1f5c14af8a985" title="InodeDirReadRecord" alt="" coords="1119,296,1263,323"/>
+<area shape="rect" id="node13" href="$inodeutil_8c.html#af56b9ef4fbba04cbcdc61dfcda95c33b" title="InodeUtilDumpDirEntry" alt="" coords="880,296,1037,323"/>
+<area shape="rect" id="node14" href="$inodeutil_8c.html#af3bd13d59e79a9c574862e0a42ac1ac2" title="InodeUtilPrintTree" alt="" coords="895,347,1022,373"/>
+<area shape="rect" id="node16" href="$inodeutil_8c.html#a63b7552b4e10719ea82758cb689850a8" title="InodeUtilIsFreeInode" alt="" coords="425,112,567,139"/>
+<area shape="rect" id="node17" href="$inodeutil_8c.html#a02fc70420f966503493dcee4f275951c" title="InodeUtilDumpInode" alt="" coords="425,163,567,189"/>
+<area shape="rect" id="node20" href="$inodeproto_8h.html#a91e76cac49f4444a82a74a2fa004011d" title="InodeUtilDumpDataBlockRaw" alt="" coords="397,803,595,829"/>
+<area shape="rect" id="node22" href="$inodeutil_8c.html#a091aeb9997faf9dae00a698c470439e9" title="InodeUtilCheckCorruptedInode" alt="" coords="1334,68,1535,95"/>
+<area shape="rect" id="node23" href="$inodeutil_8c.html#a9671fcb9023997872ade29c0241b0cab" title="InodeUtilWriteDataOffset" alt="" coords="1350,169,1519,196"/>
+<area shape="rect" id="node24" href="$inodeutil_8c.html#af4e29989b8cc9424603a4825af3491a0" title="InodeUtilWriteDataBlock" alt="" coords="1586,372,1753,399"/>
+<area shape="rect" id="node26" href="$inodeproto_8h.html#a6867770228931c846eac7d67ffc582a0" title="InodeUtilReadInode" alt="" coords="1122,347,1259,373"/>
+<area shape="rect" id="node27" href="$inodeproto_8h.html#a63b7552b4e10719ea82758cb689850a8" title="InodeUtilIsFreeInode" alt="" coords="1119,600,1262,627"/>
+<area shape="rect" id="node28" href="$inodefix_8c.html#adbd08c2df1e429581a73b0ffd6108cb6" title="InodeFixRootDataBlockPtr" alt="" coords="1101,397,1280,424"/>
+<area shape="rect" id="node31" href="$inodeproto_8h.html#accaeb48b7288571f8cb5db824b02cb9d" title="InodeDirAddChildEntry" alt="" coords="1113,549,1268,576"/>
+<area shape="rect" id="node34" href="$inodeproto_8h.html#a89c0632678345a3ec36ec25c31872df4" title="InodeDirChangeParentEntry" alt="" coords="1098,499,1283,525"/>
+<area shape="rect" id="node29" href="$inodeproto_8h.html#a07685cf3d25b03c9e975af7d0f22ca81" title="InodeUtilGetInodeOffset" alt="" coords="1353,372,1516,399"/>
+<area shape="rect" id="node30" href="$inodeproto_8h.html#a9671fcb9023997872ade29c0241b0cab" title="InodeUtilWriteDataOffset" alt="" coords="1350,423,1519,449"/>
+<area shape="rect" id="node32" href="$inodedir_8c.html#a9513ab1ee8f7fcc872a1f5c14af8a985" title="InodeDirReadRecord" alt="" coords="1363,575,1507,601"/>
+<area shape="rect" id="node33" href="$inodeproto_8h.html#af4e29989b8cc9424603a4825af3491a0" title="InodeUtilWriteDataBlock" alt="" coords="1351,524,1518,551"/>
+</map>

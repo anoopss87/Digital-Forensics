@@ -1,0 +1,10 @@
+<map id="inc/inodeproto.h" name="inc/inodeproto.h">
+<area shape="rect" id="node2" href="$inodeinc_8h.html" title="inc/inodeinc.h" alt="" coords="386,80,488,107"/>
+<area shape="rect" id="node3" href="$inodecli_8c.html" title="src/inodecli.c" alt="" coords="5,155,104,181"/>
+<area shape="rect" id="node4" href="$inodecmd_8c.html" title="src/inodecmd.c" alt="" coords="129,155,239,181"/>
+<area shape="rect" id="node5" href="$inodedir_8c.html" title="src/inodedir.c" alt="" coords="263,155,363,181"/>
+<area shape="rect" id="node6" href="$inodefix_8c.html" title="src/inodefix.c" alt="" coords="387,155,487,181"/>
+<area shape="rect" id="node7" href="$inodeinit_8c.html" title="src/inodeinit.c" alt="" coords="511,155,613,181"/>
+<area shape="rect" id="node8" href="$inodemain_8c.html" title="src/inodemain.c" alt="" coords="639,155,753,181"/>
+<area shape="rect" id="node9" href="$inodeutil_8c.html" title="src/inodeutil.c" alt="" coords="778,155,880,181"/>
+</map>

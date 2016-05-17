@@ -1,0 +1,668 @@
+\hypertarget{inodeproto_8h}{\section{inc/inodeproto.h File Reference}
+\label{inodeproto_8h}\index{inc/inodeproto.\+h@{inc/inodeproto.\+h}}
+}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a6474c5fd62b8ca4f7745428690849175}{Inode\+Util\+Print\+Children} (U\+I\+N\+T4 u4\+Block\+No, U\+I\+N\+T4 u4\+Level)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_af3bd13d59e79a9c574862e0a42ac1ac2}{Inode\+Util\+Print\+Tree} (U\+I\+N\+T4 u4\+Inode\+No, U\+I\+N\+T4 u4\+Level)
+\item 
+V\+O\+I\+D \hyperlink{inodeproto_8h_af56b9ef4fbba04cbcdc61dfcda95c33b}{Inode\+Util\+Dump\+Dir\+Entry} (struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry, \hyperlink{inodetdfs_8h_a408cefd7ee29ff67ed7fefab9393affa}{t\+File\+Filter} Filter, U\+I\+N\+T4 u4\+Level)
+\item 
+V\+O\+I\+D \hyperlink{inodeproto_8h_a02fc70420f966503493dcee4f275951c}{Inode\+Util\+Dump\+Inode} (struct ext3\+\_\+inode $\ast$p\+Inode)
+\item 
+V\+O\+I\+D \hyperlink{inodeproto_8h_a91e76cac49f4444a82a74a2fa004011d}{Inode\+Util\+Dump\+Data\+Block\+Raw} (C\+H\+A\+R $\ast$p\+Buffer)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a6867770228931c846eac7d67ffc582a0}{Inode\+Util\+Read\+Inode} (U\+I\+N\+T4 u4\+Inode, struct ext3\+\_\+inode $\ast$p\+New\+Inode)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a3add91b54cfb3e27f802ac8ab1b9ceb4}{Inode\+Util\+Read\+Data\+Offset} (U\+I\+N\+T8 u8\+Offset, V\+O\+I\+D $\ast$p\+Buffer, U\+I\+N\+T4 u4\+Size)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a13b5c799edb137a494ad497145f59a56}{Inode\+Util\+Read\+Data\+Block} (U\+I\+N\+T4 u4\+Block\+No, U\+I\+N\+T2 u2\+Start\+Pos, V\+O\+I\+D $\ast$p\+Buffer, U\+I\+N\+T4 u4\+Size)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a9671fcb9023997872ade29c0241b0cab}{Inode\+Util\+Write\+Data\+Offset} (U\+I\+N\+T8 u8\+Offset, V\+O\+I\+D $\ast$p\+Buffer, U\+I\+N\+T4 u4\+Size)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_af4e29989b8cc9424603a4825af3491a0}{Inode\+Util\+Write\+Data\+Block} (U\+I\+N\+T4 u4\+Block\+No, U\+I\+N\+T2 u2\+Start\+Pos, V\+O\+I\+D $\ast$p\+Buffer, U\+I\+N\+T4 u4\+Size)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a0bb419219a634fdfbb0e32df8fd4f937}{Inode\+Util\+Print\+Dir\+Data\+Block} (U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a45685e5c715aa741d487eae77c1083ae}{Inode\+Util\+Print\+Inode} (U\+I\+N\+T4 u4\+Inode\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a07685cf3d25b03c9e975af7d0f22ca81}{Inode\+Util\+Get\+Inode\+Offset} (U\+I\+N\+T4 u4\+Inode\+No, U\+I\+N\+T8 $\ast$u8\+Offset)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a091aeb9997faf9dae00a698c470439e9}{Inode\+Util\+Check\+Corrupted\+Inode} (U\+I\+N\+T4 u4\+Inode\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_ae4aa54c12d8e18c272feab11068a1cfb}{Inode\+Util\+Corrupt\+And\+Recover} (U\+I\+N\+T4 u4\+Inode\+No, U\+I\+N\+T4 u4\+Cmd)
+\item 
+I\+N\+T1 \hyperlink{inodeproto_8h_a63b7552b4e10719ea82758cb689850a8}{Inode\+Util\+Is\+Free\+Inode} (struct ext3\+\_\+inode $\ast$p\+Inode)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a9513ab1ee8f7fcc872a1f5c14af8a985}{Inode\+Dir\+Read\+Record} (C\+H\+A\+R $\ast$p\+Entries, U\+I\+N\+T4 u4\+Start\+Pos, struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a948215ffdfa5ea0b20495807546f1e09}{Inode\+Dir\+Verify\+Dir\+Record} (C\+H\+A\+R $\ast$p\+Entries, struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry, U\+I\+N\+T2 u4\+Start\+Pos)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a648f1f0adeeb821396ff675be7ce3a0a}{Inode\+Dir\+Validate\+Inode} (U\+I\+N\+T4 u4\+Inode\+No, U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a90a015688692be14fcbf9ad6f52b24b2}{Inode\+Dir\+Validate\+Data\+Block} (C\+H\+A\+R $\ast$p\+Entries)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a89c0632678345a3ec36ec25c31872df4}{Inode\+Dir\+Change\+Parent\+Entry} (struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry, U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_accaeb48b7288571f8cb5db824b02cb9d}{Inode\+Dir\+Add\+Child\+Entry} (struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$p\+Dir\+Entry, U\+I\+N\+T4 u4\+Block\+No)
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_a0cf855704a34cb63b52487e75b12052c}{Inode\+Fix\+Execute} ()
+\item 
+I\+N\+T4 \hyperlink{inodeproto_8h_adbd08c2df1e429581a73b0ffd6108cb6}{Inode\+Fix\+Root\+Data\+Block\+Ptr} (struct ext3\+\_\+inode $\ast$p\+Inode)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodeproto_8h_accaeb48b7288571f8cb5db824b02cb9d}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Add\+Child\+Entry@{Inode\+Dir\+Add\+Child\+Entry}}
+\index{Inode\+Dir\+Add\+Child\+Entry@{Inode\+Dir\+Add\+Child\+Entry}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Add\+Child\+Entry}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Add\+Child\+Entry (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+New\+Child, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_accaeb48b7288571f8cb5db824b02cb9d}
+
+
+ Function Name \+: Inode\+Dir\+Add\+Child\+Entry
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used to add a child entry to a directory inode. The new entry would be appended at the end of the last entry.
+
+Input \+: p\+Dir\+Entry -\/ new child entry u4\+Block\+No -\/ the directory data block where the child entry needs to be changed Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the child entry is addded successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_accaeb48b7288571f8cb5db824b02cb9d_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a89c0632678345a3ec36ec25c31872df4}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Change\+Parent\+Entry@{Inode\+Dir\+Change\+Parent\+Entry}}
+\index{Inode\+Dir\+Change\+Parent\+Entry@{Inode\+Dir\+Change\+Parent\+Entry}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Change\+Parent\+Entry}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Change\+Parent\+Entry (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a89c0632678345a3ec36ec25c31872df4}
+
+
+ Function Name \+: Inode\+Dir\+Change\+Parent\+Entry
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used to change the parent directory entry of a directory inode.
+
+Input \+: p\+Dir\+Entry -\/ new parent entry u4\+Block\+No -\/ the directory data block where the parent entry needs to be changed Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the parent is changed successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a89c0632678345a3ec36ec25c31872df4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a9513ab1ee8f7fcc872a1f5c14af8a985}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Read\+Record@{Inode\+Dir\+Read\+Record}}
+\index{Inode\+Dir\+Read\+Record@{Inode\+Dir\+Read\+Record}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Read\+Record}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Read\+Record (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Entries, }
+\item[{U\+I\+N\+T4}]{u4\+Start\+Pos, }
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a9513ab1ee8f7fcc872a1f5c14af8a985}
+
+
+ Function Name \+: Inode\+Dir\+Read\+Record
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to read a directory entry from the data block of a directory inode.
+
+Input \+: p\+Entries -\/ Buffer containing the contents of the data block u4\+Start\+Pos -\/ Offset to start reading
+
+Output \+: p\+Dir\+Entry -\/ the directory entry read from the block
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the entry is read successfully I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodeproto_8h_a90a015688692be14fcbf9ad6f52b24b2}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Validate\+Data\+Block@{Inode\+Dir\+Validate\+Data\+Block}}
+\index{Inode\+Dir\+Validate\+Data\+Block@{Inode\+Dir\+Validate\+Data\+Block}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Validate\+Data\+Block}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Validate\+Data\+Block (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Entries}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a90a015688692be14fcbf9ad6f52b24b2}
+
+
+ Function Name \+: Inode\+Dir\+Validate\+Data\+Block
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to check if a data block is a directory data block or not. If the data block contains directory entries, then it is a valid directory data block.
+
+Input \+: p\+Entries -\/ Buffer containing the contents of the data block Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the data block is a valid directory data block I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodeproto_8h_a648f1f0adeeb821396ff675be7ce3a0a}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Validate\+Inode@{Inode\+Dir\+Validate\+Inode}}
+\index{Inode\+Dir\+Validate\+Inode@{Inode\+Dir\+Validate\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Validate\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Validate\+Inode (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a648f1f0adeeb821396ff675be7ce3a0a}
+
+
+ Function Name \+: Inode\+Dir\+Validate\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to validate a directory inode. A directory inode is valid if the data block pointer points to the actual data block of inode. If the data block pointer is corrupted, then the directory inode is invalid.
+
+Input \+: u4\+Inode\+No -\/ Directory Inode number u4\+Block\+No -\/ data block pointed by the inode's first direct block pointer Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the inode is a valid directory inode I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a648f1f0adeeb821396ff675be7ce3a0a_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a948215ffdfa5ea0b20495807546f1e09}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Dir\+Verify\+Dir\+Record@{Inode\+Dir\+Verify\+Dir\+Record}}
+\index{Inode\+Dir\+Verify\+Dir\+Record@{Inode\+Dir\+Verify\+Dir\+Record}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Dir\+Verify\+Dir\+Record}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Dir\+Verify\+Dir\+Record (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Entries, }
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry, }
+\item[{U\+I\+N\+T2}]{u4\+Start\+Pos}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a948215ffdfa5ea0b20495807546f1e09}
+\hypertarget{inodeproto_8h_a0cf855704a34cb63b52487e75b12052c}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Fix\+Execute@{Inode\+Fix\+Execute}}
+\index{Inode\+Fix\+Execute@{Inode\+Fix\+Execute}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Fix\+Execute}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Fix\+Execute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a0cf855704a34cb63b52487e75b12052c}
+
+
+ Function Name \+: Inode\+Fix\+Execute
+
+Description \+: This Function is used to recover the corrupted directories children directories. Please refer the documentation for the recovery algorithm.
+
+Input \+: None
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, on successful recovery I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a0cf855704a34cb63b52487e75b12052c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_adbd08c2df1e429581a73b0ffd6108cb6}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Fix\+Root\+Data\+Block\+Ptr@{Inode\+Fix\+Root\+Data\+Block\+Ptr}}
+\index{Inode\+Fix\+Root\+Data\+Block\+Ptr@{Inode\+Fix\+Root\+Data\+Block\+Ptr}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Fix\+Root\+Data\+Block\+Ptr}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Fix\+Root\+Data\+Block\+Ptr (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+inode $\ast$}]{p\+Inode}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_adbd08c2df1e429581a73b0ffd6108cb6}
+
+
+ Function Name \+: Inode\+Fix\+Root\+Data\+Block\+Ptr
+
+Description \+: This Function is used to fix the root inode's data block pointer if it is corrupted.
+
+Input \+: p\+Inode -\/ Root Inode structure
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the data block pointer is fixed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_adbd08c2df1e429581a73b0ffd6108cb6_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a091aeb9997faf9dae00a698c470439e9}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Check\+Corrupted\+Inode@{Inode\+Util\+Check\+Corrupted\+Inode}}
+\index{Inode\+Util\+Check\+Corrupted\+Inode@{Inode\+Util\+Check\+Corrupted\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Check\+Corrupted\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Check\+Corrupted\+Inode (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a091aeb9997faf9dae00a698c470439e9}
+
+
+ Function Name \+: Inode\+Util\+Check\+Corrupted\+Inode
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used during manual corruption to check whether the inode is already corrupted manually or not.
+
+Input \+: u4\+Inode\+No -\/ Inode number
+
+Output \+: None
+
+Returns \+: array index in the corrupted array, if the inode is corrupted I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E if it is not corrupted already \hypertarget{inodeproto_8h_ae4aa54c12d8e18c272feab11068a1cfb}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Corrupt\+And\+Recover@{Inode\+Util\+Corrupt\+And\+Recover}}
+\index{Inode\+Util\+Corrupt\+And\+Recover@{Inode\+Util\+Corrupt\+And\+Recover}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Corrupt\+And\+Recover}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Corrupt\+And\+Recover (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{U\+I\+N\+T4}]{u4\+Cmd}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_ae4aa54c12d8e18c272feab11068a1cfb}
+
+
+ Function Name \+: Inode\+Util\+Corrupt\+And\+Recover
+
+Author \+: Anusha Seshadri
+
+Description \+: This Function is used to manually corrupt and fix an inode.
+
+Input \+: u4\+Inode\+No -\/ Inode to corrupt/fix u4\+Cmd -\/ I\+N\+O\+D\+E\+\_\+\+C\+O\+R\+R\+U\+P\+T to corrupt I\+N\+O\+D\+E\+\_\+\+F\+I\+X to fix Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_ae4aa54c12d8e18c272feab11068a1cfb_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a91e76cac49f4444a82a74a2fa004011d}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Dump\+Data\+Block\+Raw@{Inode\+Util\+Dump\+Data\+Block\+Raw}}
+\index{Inode\+Util\+Dump\+Data\+Block\+Raw@{Inode\+Util\+Dump\+Data\+Block\+Raw}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Dump\+Data\+Block\+Raw}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Util\+Dump\+Data\+Block\+Raw (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Buffer}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a91e76cac49f4444a82a74a2fa004011d}
+
+
+ Function Name \+: Inode\+Util\+Dump\+Data\+Block\+Raw
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the content of a block in H\+E\+X
+
+Input \+: p\+Buffer -\/ buffer containing the data block contents
+
+Output \+: None
+
+Returns \+: None \hypertarget{inodeproto_8h_af56b9ef4fbba04cbcdc61dfcda95c33b}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Dump\+Dir\+Entry@{Inode\+Util\+Dump\+Dir\+Entry}}
+\index{Inode\+Util\+Dump\+Dir\+Entry@{Inode\+Util\+Dump\+Dir\+Entry}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Dump\+Dir\+Entry}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Util\+Dump\+Dir\+Entry (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+dir\+\_\+entry\+\_\+2 $\ast$}]{p\+Dir\+Entry, }
+\item[{{\bf t\+File\+Filter}}]{Filter, }
+\item[{U\+I\+N\+T4}]{u4\+Level}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_af56b9ef4fbba04cbcdc61dfcda95c33b}
+
+
+ Function Name \+: Inode\+Util\+Dump\+Dir\+Entry
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print a directory entry.
+
+Input \+: p\+Dir\+Entry -\/ pointer to the directory entry to print Filter -\/ F\+I\+L\+E\+\_\+\+T\+Y\+P\+E\+\_\+\+D\+I\+R\+S -\/ print only directories F\+I\+L\+E\+\_\+\+T\+Y\+P\+E\+\_\+\+F\+I\+L\+E\+S -\/ print directories and files F\+I\+L\+E\+\_\+\+T\+Y\+P\+E\+\_\+\+A\+L\+L -\/ print everything including . and .. entries u4\+Level -\/ depth of this entry in the tree (used to format the output) Output \+: None
+
+Returns \+: None \hypertarget{inodeproto_8h_a02fc70420f966503493dcee4f275951c}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Dump\+Inode@{Inode\+Util\+Dump\+Inode}}
+\index{Inode\+Util\+Dump\+Inode@{Inode\+Util\+Dump\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Dump\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Util\+Dump\+Inode (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+inode $\ast$}]{p\+Inode}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a02fc70420f966503493dcee4f275951c}
+
+
+ Function Name \+: Inode\+Util\+Dump\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the ext3\+\_\+inode structure
+
+Input \+: p\+Inode -\/ pointer to the inode structure
+
+Output \+: None
+
+Returns \+: None \hypertarget{inodeproto_8h_a07685cf3d25b03c9e975af7d0f22ca81}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Get\+Inode\+Offset@{Inode\+Util\+Get\+Inode\+Offset}}
+\index{Inode\+Util\+Get\+Inode\+Offset@{Inode\+Util\+Get\+Inode\+Offset}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Get\+Inode\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Get\+Inode\+Offset (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{U\+I\+N\+T8 $\ast$}]{pu8\+Offset}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a07685cf3d25b03c9e975af7d0f22ca81}
+
+
+ Function Name \+: Inode\+Util\+Get\+Inode\+Offset
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to convert the given inode number into byte offset
+
+Input \+: u4\+Inode\+No -\/ Inode number
+
+Output \+: pu8\+Offset -\/ byte offset
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the byte offset can be calculated I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a07685cf3d25b03c9e975af7d0f22ca81_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a63b7552b4e10719ea82758cb689850a8}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Is\+Free\+Inode@{Inode\+Util\+Is\+Free\+Inode}}
+\index{Inode\+Util\+Is\+Free\+Inode@{Inode\+Util\+Is\+Free\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Is\+Free\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T1 Inode\+Util\+Is\+Free\+Inode (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+inode $\ast$}]{p\+Inode}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a63b7552b4e10719ea82758cb689850a8}
+
+
+ Function Name \+: Inode\+Util\+Is\+Free\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to check if an inode is all zero
+
+Input \+: p\+Inode -\/ pointer to the inode structure
+
+Output \+: None
+
+Returns \+: T\+R\+U\+E, if the inode is free F\+A\+L\+S\+E otherwise \hypertarget{inodeproto_8h_a6474c5fd62b8ca4f7745428690849175}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Print\+Children@{Inode\+Util\+Print\+Children}}
+\index{Inode\+Util\+Print\+Children@{Inode\+Util\+Print\+Children}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Print\+Children}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Print\+Children (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No, }
+\item[{U\+I\+N\+T4}]{u4\+Level}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a6474c5fd62b8ca4f7745428690849175}
+
+
+ Function Name \+: Inode\+Util\+Print\+Children
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the children of a directory inode as a part of printing the tree. If the child is a directory inode, then it calls the Inode\+Util\+Print\+Tree function to print the subtree of that child.
+
+Input \+: u4\+Block\+No -\/ Data block of a directory inode u4\+Level -\/ number inidicating the depth of the file system object in the tree.(used to format the output)
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, when successfully printed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a6474c5fd62b8ca4f7745428690849175_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a0bb419219a634fdfbb0e32df8fd4f937}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Print\+Dir\+Data\+Block@{Inode\+Util\+Print\+Dir\+Data\+Block}}
+\index{Inode\+Util\+Print\+Dir\+Data\+Block@{Inode\+Util\+Print\+Dir\+Data\+Block}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Print\+Dir\+Data\+Block}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Print\+Dir\+Data\+Block (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a0bb419219a634fdfbb0e32df8fd4f937}
+
+
+ Function Name \+: Inode\+Util\+Print\+Dir\+Data\+Block
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the directory entries present in a directory data block
+
+Input \+: u4\+Block\+No -\/ directory data block number
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, when successfully printed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a0bb419219a634fdfbb0e32df8fd4f937_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a45685e5c715aa741d487eae77c1083ae}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Print\+Inode@{Inode\+Util\+Print\+Inode}}
+\index{Inode\+Util\+Print\+Inode@{Inode\+Util\+Print\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Print\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Print\+Inode (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a45685e5c715aa741d487eae77c1083ae}
+
+
+ Function Name \+: Inode\+Util\+Print\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the contents of an inode
+
+Input \+: u4\+Inode\+No -\/ Inode number
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, when successfully printed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a45685e5c715aa741d487eae77c1083ae_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_af3bd13d59e79a9c574862e0a42ac1ac2}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Print\+Tree@{Inode\+Util\+Print\+Tree}}
+\index{Inode\+Util\+Print\+Tree@{Inode\+Util\+Print\+Tree}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Print\+Tree}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Print\+Tree (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{U\+I\+N\+T4}]{u4\+Level}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_af3bd13d59e79a9c574862e0a42ac1ac2}
+
+
+ Function Name \+: Inode\+Util\+Print\+Tree
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to print the tree/subtree of the file system objects starting at a specified directory inode in depth first order.
+
+Input \+: u4\+Inode\+No -\/ Inode number u4\+Level -\/ number inidicating the depth of the file system object in the tree (this is used to format the output. e.\+g\+: root inode for the tree should be called with u4\+Level = 1) Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, when successfully printed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_af3bd13d59e79a9c574862e0a42ac1ac2_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a13b5c799edb137a494ad497145f59a56}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Read\+Data\+Block@{Inode\+Util\+Read\+Data\+Block}}
+\index{Inode\+Util\+Read\+Data\+Block@{Inode\+Util\+Read\+Data\+Block}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Read\+Data\+Block}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Read\+Data\+Block (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No, }
+\item[{U\+I\+N\+T2}]{u2\+Start\+Pos, }
+\item[{V\+O\+I\+D $\ast$}]{p\+Buffer, }
+\item[{U\+I\+N\+T4}]{u4\+Size}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a13b5c799edb137a494ad497145f59a56}
+
+
+ Function Name \+: Inode\+Util\+Read\+Data\+Block
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to read a file system block
+
+Input \+: u4\+Block\+No -\/ Block number to read u4\+Size -\/ size of data to read in bytes
+
+Output \+: p\+Buffer -\/ Buffer containg the contents of the block
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the read succeeds I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodeproto_8h_a3add91b54cfb3e27f802ac8ab1b9ceb4}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Read\+Data\+Offset@{Inode\+Util\+Read\+Data\+Offset}}
+\index{Inode\+Util\+Read\+Data\+Offset@{Inode\+Util\+Read\+Data\+Offset}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Read\+Data\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Read\+Data\+Offset (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T8}]{u8\+Offset, }
+\item[{V\+O\+I\+D $\ast$}]{p\+Buffer, }
+\item[{U\+I\+N\+T4}]{u4\+Size}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a3add91b54cfb3e27f802ac8ab1b9ceb4}
+
+
+ Function Name \+: Inode\+Util\+Read\+Data\+Offset
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to read data from any location
+
+Input \+: u8\+Offset -\/ Byte offset to read u4\+Size -\/ size of data to read in bytes
+
+Output \+: p\+Buffer -\/ Buffer containg the contents of the block
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the read succeeds I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a3add91b54cfb3e27f802ac8ab1b9ceb4_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_a6867770228931c846eac7d67ffc582a0}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Read\+Inode@{Inode\+Util\+Read\+Inode}}
+\index{Inode\+Util\+Read\+Inode@{Inode\+Util\+Read\+Inode}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Read\+Inode}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Read\+Inode (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No, }
+\item[{struct ext3\+\_\+inode $\ast$}]{p\+New\+Inode}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a6867770228931c846eac7d67ffc582a0}
+
+
+ Function Name \+: Inode\+Util\+Read\+Inode
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to read an inode
+
+Input \+: u4\+Inode\+No -\/ Inode number to read
+
+Output \+: p\+New\+Inode -\/ pointer to the structure containing the inode contents
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, on successful read I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a6867770228931c846eac7d67ffc582a0_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodeproto_8h_af4e29989b8cc9424603a4825af3491a0}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Write\+Data\+Block@{Inode\+Util\+Write\+Data\+Block}}
+\index{Inode\+Util\+Write\+Data\+Block@{Inode\+Util\+Write\+Data\+Block}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Write\+Data\+Block}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Write\+Data\+Block (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No, }
+\item[{U\+I\+N\+T2}]{u2\+Start\+Pos, }
+\item[{V\+O\+I\+D $\ast$}]{p\+Buffer, }
+\item[{U\+I\+N\+T4}]{u4\+Size}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_af4e29989b8cc9424603a4825af3491a0}
+
+
+ Function Name \+: Inode\+Util\+Write\+Data\+Block
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to write data to a file system block
+
+Input \+: u4\+Block\+No -\/ Block number to write u2\+Start\+Pos -\/ byte offset inside the block to start u4\+Size -\/ size of data to read in bytes p\+Buffer -\/ Buffer containg the data to write
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the write succeeds I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise \hypertarget{inodeproto_8h_a9671fcb9023997872ade29c0241b0cab}{\index{inodeproto.\+h@{inodeproto.\+h}!Inode\+Util\+Write\+Data\+Offset@{Inode\+Util\+Write\+Data\+Offset}}
+\index{Inode\+Util\+Write\+Data\+Offset@{Inode\+Util\+Write\+Data\+Offset}!inodeproto.\+h@{inodeproto.\+h}}
+\subsubsection[{Inode\+Util\+Write\+Data\+Offset}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Util\+Write\+Data\+Offset (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T8}]{u8\+Offset, }
+\item[{V\+O\+I\+D $\ast$}]{p\+Buffer, }
+\item[{U\+I\+N\+T4}]{u4\+Size}
+\end{DoxyParamCaption}
+)}}\label{inodeproto_8h_a9671fcb9023997872ade29c0241b0cab}
+
+
+ Function Name \+: Inode\+Util\+Write\+Data\+Offset
+
+Author \+: Naveen Raj Selvaraj
+
+Description \+: This Function is used to write data at a particualar offset
+
+Input \+: u8\+Offset -\/ Byte offset to write u4\+Size -\/ size of data to read in bytes p\+Buffer -\/ Buffer containg the data to write
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the write succeeds I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodeproto_8h_a9671fcb9023997872ade29c0241b0cab_cgraph}
+\end{center}
+\end{figure}
+
+

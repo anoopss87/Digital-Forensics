@@ -1,0 +1,461 @@
+\hypertarget{inodecli_8h}{\section{inc/inodecli.h File Reference}
+\label{inodecli_8h}\index{inc/inodecli.\+h@{inc/inodecli.\+h}}
+}
+{\ttfamily \#include \char`\"{}readinput.\+h\char`\"{}}\\*
+Include dependency graph for inodecli.\+h\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=154pt]{inodecli_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=258pt]{inodecli_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{structCommand__t}{Command\+\_\+t}
+\item 
+struct \hyperlink{structCmd__t}{Cmd\+\_\+t}
+\end{DoxyCompactItemize}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{inodecli_8h_aac8bef564a684c3ccdf836cfd67a2401}{C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T}~\char`\"{}Inode Analyser\# \char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a709b8a2a1d68783907c5ab502369e3c9}{C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R}~\char`\"{} \char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a42553adbbb23a03ca876697c00ea44b1}{C\+M\+D\+\_\+\+H\+E\+L\+P}~\char`\"{}help\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a4ef842c2bc3e123c98c9379f40a2ab62}{C\+M\+D\+\_\+\+C\+L\+E\+A\+R}~\char`\"{}clear\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_acfa1d482ab47b3ceebb9717007111649}{C\+M\+D\+\_\+\+E\+X\+I\+T}~\char`\"{}exit\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a7391deb9c3a262ded3e186e94eb884e2}{C\+M\+D\+\_\+\+W\+R\+I\+T\+E}~\char`\"{}write\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a286bb7f4b865450f58250d939cf45d90}{C\+M\+D\+\_\+\+I\+N\+O\+D\+E}~\char`\"{}inode\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a9c953a6c538020e644127ee080608021}{C\+M\+D\+\_\+\+R\+E\+A\+D}~\char`\"{}read\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a3d2223fa832ff3a2aeb97888ce9856f9}{C\+M\+D\+\_\+\+D\+I\+R}~\char`\"{}dir\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a7517d4f10c0034f27827f5cfe77cf52a}{C\+M\+D\+\_\+\+T\+R\+E\+E}~\char`\"{}tree\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a430ac043851c4efc20762af91d89f7b9}{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}~\char`\"{}corrupt\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a68980ecdee8879dfba5618de489ca766}{C\+M\+D\+\_\+\+F\+I\+X}~\char`\"{}fix\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_aebfe91c6148b6492ffab5cdd7ced8b70}{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}~\char`\"{}recover\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a1b2de4e9466227cd3fcf41b4bf3d74a4}{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y}~\char`\"{}-\/k\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a35e83bf1e20d880d78af715f43421e8e}{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E}~\char`\"{}-\/n\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a10620eb7066bd16d02eae9ab03365193}{C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P}~\char`\"{}help -\/ display help\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_ad7afbb455c5f2d60f701118f115080d8}{C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P}~\char`\"{}clear-\/ clear display\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a111d2461881013f301a9f648ac24f601}{C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P}~\char`\"{}exit -\/ exit the application\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a03adb8dfb4cdd3faba8978163aaf8c93}{C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P}~\char`\"{}read $<$block number$>$ -\/ display the content of the data block in H\+E\+X\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a78cd212696a7b049d87aada2a470c965}{C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P}~\char`\"{}write $<$block number$>$ $<$offset$>$ $<$data$>$ -\/ writes data to a block starting at a particular offset\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a7b7763747cb82fcd19aa8dd28e30a071}{C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P}~\char`\"{}inode $<$inode number$>$ -\/ read the inode specified by inode number\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a5474da458a635be412d5704a02f0df83}{C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P}~\char`\"{}dir $<$block number$>$ -\/ display the content of the data block of a directory\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a9008063814b97ecefc54f5a46e19b340}{C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P}~\char`\"{}tree \mbox{[}inode number\mbox{]} -\/ display the directory tree starting at inode number\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_a57a92b33d047525dc9e69eb72de6269e}{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P}~\char`\"{}corrupt $<$inode number$>$ -\/ corrupt the data block pointer of the given inode\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_af2e6404e0cf07b14693e23d54937f010}{C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P}~\char`\"{}fix $<$inode number$>$ -\/ restore the manually corrupted data block pointer of the given inode\char`\"{}
+\item 
+\#define \hyperlink{inodecli_8h_ab151080fd3feb4380a5bd65353ce60d5}{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P}~\char`\"{}recover -\/ run the recovery algorithm\char`\"{}
+\end{DoxyCompactItemize}
+\subsection*{Typedefs}
+\begin{DoxyCompactItemize}
+\item 
+typedef struct \hyperlink{structCommand__t}{Command\+\_\+t} \hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command}
+\item 
+typedef struct \hyperlink{structCmd__t}{Cmd\+\_\+t} \hyperlink{inodecli_8h_a25509e56046d94d7ebcb24fb035f12c1}{t\+Cmd}
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \{ \\*
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba655a173e55e3d70f016a8a466caa20a5}{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae0e5751c184e3060dc7f14f48adbc720}{C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P} = C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0671497d2f9e9bb788033b8e62d75ffe}{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55baad9add317883fc075dd11eaf694b59a4}{C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T}, 
+\\*
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55babbd32dffe3d2152cc470fb20b182ead7}{C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badf311fdf7ada68a1678ed54aacef711a}{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bad9030e4dd23b724da98493899a0f625e}{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae74578f3f060b12a382859c0ae59bbda}{C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R}, 
+\\*
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba1c16a4c12e7e2cf4aee99df8ea16f810}{C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badae354f4839e186863d07fe9af4bcfe8}{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba7899d435504c6b1a089a0e04b81df353}{C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba801fdb8c23bd8cf52cc4bb3cf0025a84}{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}, 
+\\*
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0b2e221172240c1b6e6cea012317fb16}{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}, 
+\hyperlink{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba20c9a99977545ef5a736321cb199ca2c}{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D} = C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X
+ \}
+\item 
+enum \{ \hyperlink{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7ae525cd46a2b490551acdc544cb9cb074}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0}, 
+\hyperlink{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a0eb12d6023709e97ba8ca53bf91a7c24}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1}, 
+\hyperlink{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a26d48e69d8cd13c226f1769208d07a15}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8h_aa0b53520e1018955fde7aea285159808}{Inode\+Cli\+Start} ()
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8h_adde588bd205c9ef530fa02ef8f48cf69}{Inode\+Cli\+Handle\+Cmd} (C\+H\+A\+R $\ast$p\+Cmd)
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8h_a3157714cddf8864e002915be47a6cef5}{Inode\+Cli\+Cmd\+Action} (\hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} cmd)
+\item 
+I\+N\+T1 \hyperlink{inodecli_8h_adaf1a711f6592434c4f1280c0a92fd22}{Inode\+Cli\+Parse\+Cmd} (C\+H\+A\+R $\ast$p\+Cmd\+Str, \hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} $\ast$p\+Cmd)
+\item 
+I\+N\+T1 \hyperlink{inodecli_8h_a7d2b674c246cdf3d17a7d091c5f187f8}{Inode\+Cli\+Validate\+Cmd} (\hyperlink{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{t\+Command} $\ast$p\+Cmd, U\+I\+N\+T1 u1\+Args\+Count)
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8h_a1635e6bd723f78d1355e30c815348a34}{Inode\+Cmd\+Read\+Handler} (U\+I\+N\+T4 u4\+Block\+No)
+\item 
+V\+O\+I\+D \hyperlink{inodecli_8h_a1869e2775252da9a36ecca18ce8198d1}{Inode\+Cmd\+Tree\+Handler} (U\+I\+N\+T4 u4\+Inode)
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\hypertarget{inodecli_8h_aac8bef564a684c3ccdf836cfd67a2401}{\index{inodecli.\+h@{inodecli.\+h}!C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T@{C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T}}
+\index{C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T@{C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+L\+I\+\_\+\+P\+R\+O\+M\+P\+T~\char`\"{}Inode Analyser\# \char`\"{}}}\label{inodecli_8h_aac8bef564a684c3ccdf836cfd67a2401}
+\hypertarget{inodecli_8h_a4ef842c2bc3e123c98c9379f40a2ab62}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+C\+L\+E\+A\+R@{C\+M\+D\+\_\+\+C\+L\+E\+A\+R}}
+\index{C\+M\+D\+\_\+\+C\+L\+E\+A\+R@{C\+M\+D\+\_\+\+C\+L\+E\+A\+R}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+C\+L\+E\+A\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+C\+L\+E\+A\+R~\char`\"{}clear\char`\"{}}}\label{inodecli_8h_a4ef842c2bc3e123c98c9379f40a2ab62}
+\hypertarget{inodecli_8h_ad7afbb455c5f2d60f701118f115080d8}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+C\+L\+E\+A\+R\+\_\+\+H\+E\+L\+P~\char`\"{}clear-\/ clear display\char`\"{}}}\label{inodecli_8h_ad7afbb455c5f2d60f701118f115080d8}
+\hypertarget{inodecli_8h_a430ac043851c4efc20762af91d89f7b9}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T@{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}}
+\index{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T@{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T~\char`\"{}corrupt\char`\"{}}}\label{inodecli_8h_a430ac043851c4efc20762af91d89f7b9}
+\hypertarget{inodecli_8h_a57a92b33d047525dc9e69eb72de6269e}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T\+\_\+\+H\+E\+L\+P~\char`\"{}corrupt $<$inode number$>$ -\/ corrupt the data block pointer of the given inode\char`\"{}}}\label{inodecli_8h_a57a92b33d047525dc9e69eb72de6269e}
+\hypertarget{inodecli_8h_a709b8a2a1d68783907c5ab502369e3c9}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R@{C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R}}
+\index{C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R@{C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+D\+E\+L\+I\+M\+I\+T\+E\+R~\char`\"{} \char`\"{}}}\label{inodecli_8h_a709b8a2a1d68783907c5ab502369e3c9}
+\hypertarget{inodecli_8h_a3d2223fa832ff3a2aeb97888ce9856f9}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+D\+I\+R@{C\+M\+D\+\_\+\+D\+I\+R}}
+\index{C\+M\+D\+\_\+\+D\+I\+R@{C\+M\+D\+\_\+\+D\+I\+R}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+D\+I\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+D\+I\+R~\char`\"{}dir\char`\"{}}}\label{inodecli_8h_a3d2223fa832ff3a2aeb97888ce9856f9}
+\hypertarget{inodecli_8h_a5474da458a635be412d5704a02f0df83}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+D\+I\+R\+\_\+\+H\+E\+L\+P~\char`\"{}dir $<$block number$>$ -\/ display the content of the data block of a directory\char`\"{}}}\label{inodecli_8h_a5474da458a635be412d5704a02f0df83}
+\hypertarget{inodecli_8h_acfa1d482ab47b3ceebb9717007111649}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+E\+X\+I\+T@{C\+M\+D\+\_\+\+E\+X\+I\+T}}
+\index{C\+M\+D\+\_\+\+E\+X\+I\+T@{C\+M\+D\+\_\+\+E\+X\+I\+T}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+E\+X\+I\+T}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+E\+X\+I\+T~\char`\"{}exit\char`\"{}}}\label{inodecli_8h_acfa1d482ab47b3ceebb9717007111649}
+\hypertarget{inodecli_8h_a111d2461881013f301a9f648ac24f601}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+E\+X\+I\+T\+\_\+\+H\+E\+L\+P~\char`\"{}exit -\/ exit the application\char`\"{}}}\label{inodecli_8h_a111d2461881013f301a9f648ac24f601}
+\hypertarget{inodecli_8h_a68980ecdee8879dfba5618de489ca766}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+F\+I\+X@{C\+M\+D\+\_\+\+F\+I\+X}}
+\index{C\+M\+D\+\_\+\+F\+I\+X@{C\+M\+D\+\_\+\+F\+I\+X}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+F\+I\+X}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+F\+I\+X~\char`\"{}fix\char`\"{}}}\label{inodecli_8h_a68980ecdee8879dfba5618de489ca766}
+\hypertarget{inodecli_8h_af2e6404e0cf07b14693e23d54937f010}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+F\+I\+X\+\_\+\+H\+E\+L\+P~\char`\"{}fix $<$inode number$>$ -\/ restore the manually corrupted data block pointer of the given inode\char`\"{}}}\label{inodecli_8h_af2e6404e0cf07b14693e23d54937f010}
+\hypertarget{inodecli_8h_a42553adbbb23a03ca876697c00ea44b1}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+H\+E\+L\+P~\char`\"{}help\char`\"{}}}\label{inodecli_8h_a42553adbbb23a03ca876697c00ea44b1}
+\hypertarget{inodecli_8h_a10620eb7066bd16d02eae9ab03365193}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+H\+E\+L\+P\+\_\+\+H\+E\+L\+P~\char`\"{}help -\/ display help\char`\"{}}}\label{inodecli_8h_a10620eb7066bd16d02eae9ab03365193}
+\hypertarget{inodecli_8h_a286bb7f4b865450f58250d939cf45d90}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+N\+O\+D\+E@{C\+M\+D\+\_\+\+I\+N\+O\+D\+E}}
+\index{C\+M\+D\+\_\+\+I\+N\+O\+D\+E@{C\+M\+D\+\_\+\+I\+N\+O\+D\+E}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+I\+N\+O\+D\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+I\+N\+O\+D\+E~\char`\"{}inode\char`\"{}}}\label{inodecli_8h_a286bb7f4b865450f58250d939cf45d90}
+\hypertarget{inodecli_8h_a7b7763747cb82fcd19aa8dd28e30a071}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+I\+N\+O\+D\+E\+\_\+\+H\+E\+L\+P~\char`\"{}inode $<$inode number$>$ -\/ read the inode specified by inode number\char`\"{}}}\label{inodecli_8h_a7b7763747cb82fcd19aa8dd28e30a071}
+\hypertarget{inodecli_8h_a1b2de4e9466227cd3fcf41b4bf3d74a4}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y@{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y}}
+\index{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y@{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+K\+E\+Y~\char`\"{}-\/k\char`\"{}}}\label{inodecli_8h_a1b2de4e9466227cd3fcf41b4bf3d74a4}
+\hypertarget{inodecli_8h_a35e83bf1e20d880d78af715f43421e8e}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E@{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E}}
+\index{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E@{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+O\+P\+T\+\_\+\+N\+A\+M\+E~\char`\"{}-\/n\char`\"{}}}\label{inodecli_8h_a35e83bf1e20d880d78af715f43421e8e}
+\hypertarget{inodecli_8h_a9c953a6c538020e644127ee080608021}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+R\+E\+A\+D@{C\+M\+D\+\_\+\+R\+E\+A\+D}}
+\index{C\+M\+D\+\_\+\+R\+E\+A\+D@{C\+M\+D\+\_\+\+R\+E\+A\+D}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+R\+E\+A\+D}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+R\+E\+A\+D~\char`\"{}read\char`\"{}}}\label{inodecli_8h_a9c953a6c538020e644127ee080608021}
+\hypertarget{inodecli_8h_a03adb8dfb4cdd3faba8978163aaf8c93}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+R\+E\+A\+D\+\_\+\+H\+E\+L\+P~\char`\"{}read $<$block number$>$ -\/ display the content of the data block in H\+E\+X\char`\"{}}}\label{inodecli_8h_a03adb8dfb4cdd3faba8978163aaf8c93}
+\hypertarget{inodecli_8h_aebfe91c6148b6492ffab5cdd7ced8b70}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R@{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}}
+\index{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R@{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R~\char`\"{}recover\char`\"{}}}\label{inodecli_8h_aebfe91c6148b6492ffab5cdd7ced8b70}
+\hypertarget{inodecli_8h_ab151080fd3feb4380a5bd65353ce60d5}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R\+\_\+\+H\+E\+L\+P~\char`\"{}recover -\/ run the recovery algorithm\char`\"{}}}\label{inodecli_8h_ab151080fd3feb4380a5bd65353ce60d5}
+\hypertarget{inodecli_8h_a7517d4f10c0034f27827f5cfe77cf52a}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+T\+R\+E\+E@{C\+M\+D\+\_\+\+T\+R\+E\+E}}
+\index{C\+M\+D\+\_\+\+T\+R\+E\+E@{C\+M\+D\+\_\+\+T\+R\+E\+E}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+T\+R\+E\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+T\+R\+E\+E~\char`\"{}tree\char`\"{}}}\label{inodecli_8h_a7517d4f10c0034f27827f5cfe77cf52a}
+\hypertarget{inodecli_8h_a9008063814b97ecefc54f5a46e19b340}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+T\+R\+E\+E\+\_\+\+H\+E\+L\+P~\char`\"{}tree \mbox{[}inode number\mbox{]} -\/ display the directory tree starting at inode number\char`\"{}}}\label{inodecli_8h_a9008063814b97ecefc54f5a46e19b340}
+\hypertarget{inodecli_8h_a7391deb9c3a262ded3e186e94eb884e2}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+W\+R\+I\+T\+E@{C\+M\+D\+\_\+\+W\+R\+I\+T\+E}}
+\index{C\+M\+D\+\_\+\+W\+R\+I\+T\+E@{C\+M\+D\+\_\+\+W\+R\+I\+T\+E}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+W\+R\+I\+T\+E}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+W\+R\+I\+T\+E~\char`\"{}write\char`\"{}}}\label{inodecli_8h_a7391deb9c3a262ded3e186e94eb884e2}
+\hypertarget{inodecli_8h_a78cd212696a7b049d87aada2a470c965}{\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P}}
+\index{C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P}]{\setlength{\rightskip}{0pt plus 5cm}\#define C\+M\+D\+\_\+\+W\+R\+I\+T\+E\+\_\+\+H\+E\+L\+P~\char`\"{}write $<$block number$>$ $<$offset$>$ $<$data$>$ -\/ writes data to a block starting at a particular offset\char`\"{}}}\label{inodecli_8h_a78cd212696a7b049d87aada2a470c965}
+
+
+\subsection{Typedef Documentation}
+\hypertarget{inodecli_8h_a25509e56046d94d7ebcb24fb035f12c1}{\index{inodecli.\+h@{inodecli.\+h}!t\+Cmd@{t\+Cmd}}
+\index{t\+Cmd@{t\+Cmd}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{t\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf Cmd\+\_\+t} {\bf t\+Cmd}}}\label{inodecli_8h_a25509e56046d94d7ebcb24fb035f12c1}
+\hypertarget{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}{\index{inodecli.\+h@{inodecli.\+h}!t\+Command@{t\+Command}}
+\index{t\+Command@{t\+Command}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{t\+Command}]{\setlength{\rightskip}{0pt plus 5cm}typedef struct {\bf Command\+\_\+t} {\bf t\+Command}}}\label{inodecli_8h_a5a66cd47ebf8f625f42d8df880975e95}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55b}{\subsubsection[{anonymous enum}]{\setlength{\rightskip}{0pt plus 5cm}anonymous enum}}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55b}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N@{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N@{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba655a173e55e3d70f016a8a466caa20a5}{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+I\+N}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba655a173e55e3d70f016a8a466caa20a5}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P@{C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae0e5751c184e3060dc7f14f48adbc720}{C\+M\+D\+\_\+\+I\+D\+\_\+\+H\+E\+L\+P}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae0e5751c184e3060dc7f14f48adbc720}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0671497d2f9e9bb788033b8e62d75ffe}{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+L\+E\+A\+R}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0671497d2f9e9bb788033b8e62d75ffe}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T@{C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T@{C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55baad9add317883fc075dd11eaf694b59a4}{C\+M\+D\+\_\+\+I\+D\+\_\+\+E\+X\+I\+T}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55baad9add317883fc075dd11eaf694b59a4}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55babbd32dffe3d2152cc470fb20b182ead7}{C\+M\+D\+\_\+\+I\+D\+\_\+\+W\+R\+I\+T\+E}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55babbd32dffe3d2152cc470fb20b182ead7}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badf311fdf7ada68a1678ed54aacef711a}{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+O\+D\+E}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badf311fdf7ada68a1678ed54aacef711a}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D@{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D@{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bad9030e4dd23b724da98493899a0f625e}{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+A\+D}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bad9030e4dd23b724da98493899a0f625e}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae74578f3f060b12a382859c0ae59bbda}{C\+M\+D\+\_\+\+I\+D\+\_\+\+D\+I\+R}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55bae74578f3f060b12a382859c0ae59bbda}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E@{C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba1c16a4c12e7e2cf4aee99df8ea16f810}{C\+M\+D\+\_\+\+I\+D\+\_\+\+T\+R\+E\+E}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba1c16a4c12e7e2cf4aee99df8ea16f810}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T@{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T@{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badae354f4839e186863d07fe9af4bcfe8}{C\+M\+D\+\_\+\+I\+D\+\_\+\+C\+O\+R\+R\+U\+P\+T}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55badae354f4839e186863d07fe9af4bcfe8}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X@{C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X@{C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba7899d435504c6b1a089a0e04b81df353}{C\+M\+D\+\_\+\+I\+D\+\_\+\+F\+I\+X}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba7899d435504c6b1a089a0e04b81df353}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R@{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba801fdb8c23bd8cf52cc4bb3cf0025a84}{C\+M\+D\+\_\+\+I\+D\+\_\+\+R\+E\+C\+O\+V\+E\+R}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba801fdb8c23bd8cf52cc4bb3cf0025a84}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X@{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X@{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0b2e221172240c1b6e6cea012317fb16}{C\+M\+D\+\_\+\+I\+D\+\_\+\+M\+A\+X}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba0b2e221172240c1b6e6cea012317fb16}
+}]\index{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D@{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D@{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D}}\item[{\em 
+\hypertarget{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba20c9a99977545ef5a736321cb199ca2c}{C\+M\+D\+\_\+\+I\+D\+\_\+\+I\+N\+V\+A\+L\+I\+D}\label{inodecli_8h_a06fc87d81c62e9abb8790b6e5713c55ba20c9a99977545ef5a736321cb199ca2c}
+}]\end{description}
+\end{Desc}
+\hypertarget{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7}{\subsubsection[{anonymous enum}]{\setlength{\rightskip}{0pt plus 5cm}anonymous enum}}\label{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0}}\item[{\em 
+\hypertarget{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7ae525cd46a2b490551acdc544cb9cb074}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+0}\label{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7ae525cd46a2b490551acdc544cb9cb074}
+}]\index{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1}}\item[{\em 
+\hypertarget{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a0eb12d6023709e97ba8ca53bf91a7c24}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+1}\label{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a0eb12d6023709e97ba8ca53bf91a7c24}
+}]\index{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2}!inodecli.\+h@{inodecli.\+h}}\index{inodecli.\+h@{inodecli.\+h}!C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2@{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2}}\item[{\em 
+\hypertarget{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a26d48e69d8cd13c226f1769208d07a15}{C\+M\+D\+\_\+\+A\+R\+G\+S\+\_\+2}\label{inodecli_8h_adf764cbdea00d65edcd07bb9953ad2b7a26d48e69d8cd13c226f1769208d07a15}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodecli_8h_a3157714cddf8864e002915be47a6cef5}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cli\+Cmd\+Action@{Inode\+Cli\+Cmd\+Action}}
+\index{Inode\+Cli\+Cmd\+Action@{Inode\+Cli\+Cmd\+Action}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cli\+Cmd\+Action}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Cmd\+Action (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+Command}}]{cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_a3157714cddf8864e002915be47a6cef5}
+
+
+ Function Name \+: Inode\+Cli\+Cmd\+Action
+
+Description \+: This Function is the overall action handler. This function identifies the command and the action to be taken for the command.
+
+Input \+: cmd -\/ structure containing the parsed command and arguments
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8h_a3157714cddf8864e002915be47a6cef5_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8h_adde588bd205c9ef530fa02ef8f48cf69}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cli\+Handle\+Cmd@{Inode\+Cli\+Handle\+Cmd}}
+\index{Inode\+Cli\+Handle\+Cmd@{Inode\+Cli\+Handle\+Cmd}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cli\+Handle\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Handle\+Cmd (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_adde588bd205c9ef530fa02ef8f48cf69}
+
+
+ Function Name \+: Inode\+Cli\+Handle
+
+Description \+: This Function tries to parse the command input and if it succeeds then calls the high level action handler function with the parsed command.
+
+Input \+: p\+Cmd -\/ Command string input from the user
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8h_adde588bd205c9ef530fa02ef8f48cf69_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8h_adaf1a711f6592434c4f1280c0a92fd22}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cli\+Parse\+Cmd@{Inode\+Cli\+Parse\+Cmd}}
+\index{Inode\+Cli\+Parse\+Cmd@{Inode\+Cli\+Parse\+Cmd}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cli\+Parse\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T1 Inode\+Cli\+Parse\+Cmd (
+\begin{DoxyParamCaption}
+\item[{C\+H\+A\+R $\ast$}]{p\+Cmd\+Str, }
+\item[{{\bf t\+Command} $\ast$}]{p\+Cmd}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_adaf1a711f6592434c4f1280c0a92fd22}
+
+
+ Function Name \+: Inode\+Cli\+Parse\+Cmd
+
+Description \+: This Function is used to parse the input command string into the command and arguments.
+
+Input \+: p\+Cmd\+Str -\/ input command string
+
+Output \+: p\+Cmd -\/ structure containing parsed command and arguments
+
+Returns \+: T\+R\+U\+E, if parsing and validation succeeds F\+A\+L\+S\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=326pt]{inodecli_8h_adaf1a711f6592434c4f1280c0a92fd22_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8h_aa0b53520e1018955fde7aea285159808}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cli\+Start@{Inode\+Cli\+Start}}
+\index{Inode\+Cli\+Start@{Inode\+Cli\+Start}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cli\+Start}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cli\+Start (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_aa0b53520e1018955fde7aea285159808}
+
+
+ Function Name \+: Inode\+Cli\+Start
+
+Description \+: This Function is used to start the command line interface. This function reads the command input from the user and initiates the action for the command.
+
+Input \+: None
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8h_aa0b53520e1018955fde7aea285159808_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8h_a7d2b674c246cdf3d17a7d091c5f187f8}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cli\+Validate\+Cmd@{Inode\+Cli\+Validate\+Cmd}}
+\index{Inode\+Cli\+Validate\+Cmd@{Inode\+Cli\+Validate\+Cmd}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cli\+Validate\+Cmd}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T1 Inode\+Cli\+Validate\+Cmd (
+\begin{DoxyParamCaption}
+\item[{{\bf t\+Command} $\ast$}]{p\+Cmd, }
+\item[{U\+I\+N\+T1}]{u1\+Arg\+C}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_a7d2b674c246cdf3d17a7d091c5f187f8}
+
+
+ Function Name \+: Inode\+Cli\+Validate\+Cmd
+
+Description \+: This Function is used to validate the parsed command and arguments
+
+Input \+: p\+Cmd -\/ pointer to the parsed command structure u1\+Arg\+C -\/ no. of arguments in the command input
+
+Output \+: None
+
+Returns \+: T\+R\+U\+E, if validation succeeds F\+A\+L\+S\+E otherwise \hypertarget{inodecli_8h_a1635e6bd723f78d1355e30c815348a34}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cmd\+Read\+Handler@{Inode\+Cmd\+Read\+Handler}}
+\index{Inode\+Cmd\+Read\+Handler@{Inode\+Cmd\+Read\+Handler}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cmd\+Read\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cmd\+Read\+Handler (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_a1635e6bd723f78d1355e30c815348a34}
+
+
+ Function Name \+: Inode\+Cmd\+Read\+Handler
+
+Description \+: This is the handler function for the command 'read'. This function reads the block specified and prints the contents in H\+E\+X.
+
+Input \+: u4\+Block\+No -\/ Block number to read.
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8h_a1635e6bd723f78d1355e30c815348a34_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecli_8h_a1869e2775252da9a36ecca18ce8198d1}{\index{inodecli.\+h@{inodecli.\+h}!Inode\+Cmd\+Tree\+Handler@{Inode\+Cmd\+Tree\+Handler}}
+\index{Inode\+Cmd\+Tree\+Handler@{Inode\+Cmd\+Tree\+Handler}!inodecli.\+h@{inodecli.\+h}}
+\subsubsection[{Inode\+Cmd\+Tree\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cmd\+Tree\+Handler (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No}
+\end{DoxyParamCaption}
+)}}\label{inodecli_8h_a1869e2775252da9a36ecca18ce8198d1}
+
+
+ Function Name \+: Inode\+Cmd\+Tree\+Handler
+
+Description \+: This is the handler function for the command 'tree'. This function prints the directory/files tree starting at the given inode.
+
+Input \+: u4\+Inode\+No -\/ Root inode to start.
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecli_8h_a1869e2775252da9a36ecca18ce8198d1_cgraph}
+\end{center}
+\end{figure}
+
+

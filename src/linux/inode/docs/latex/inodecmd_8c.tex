@@ -1,0 +1,77 @@
+\hypertarget{inodecmd_8c}{\section{src/inodecmd.c File Reference}
+\label{inodecmd_8c}\index{src/inodecmd.\+c@{src/inodecmd.\+c}}
+}
+{\ttfamily \#include \char`\"{}inodeinc.\+h\char`\"{}}\\*
+Include dependency graph for inodecmd.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecmd_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+V\+O\+I\+D \hyperlink{inodecmd_8c_a2ea2fdd045177335a3a2f8cd89678cb9}{Inode\+Cmd\+Tree\+Handler} (U\+I\+N\+T4 u4\+Inode\+No)
+\item 
+V\+O\+I\+D \hyperlink{inodecmd_8c_a1635e6bd723f78d1355e30c815348a34}{Inode\+Cmd\+Read\+Handler} (U\+I\+N\+T4 u4\+Block\+No)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodecmd_8c_a1635e6bd723f78d1355e30c815348a34}{\index{inodecmd.\+c@{inodecmd.\+c}!Inode\+Cmd\+Read\+Handler@{Inode\+Cmd\+Read\+Handler}}
+\index{Inode\+Cmd\+Read\+Handler@{Inode\+Cmd\+Read\+Handler}!inodecmd.\+c@{inodecmd.\+c}}
+\subsubsection[{Inode\+Cmd\+Read\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cmd\+Read\+Handler (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Block\+No}
+\end{DoxyParamCaption}
+)}}\label{inodecmd_8c_a1635e6bd723f78d1355e30c815348a34}
+
+
+ Function Name \+: Inode\+Cmd\+Read\+Handler
+
+Description \+: This is the handler function for the command 'read'. This function reads the block specified and prints the contents in H\+E\+X.
+
+Input \+: u4\+Block\+No -\/ Block number to read.
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecmd_8c_a1635e6bd723f78d1355e30c815348a34_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodecmd_8c_a2ea2fdd045177335a3a2f8cd89678cb9}{\index{inodecmd.\+c@{inodecmd.\+c}!Inode\+Cmd\+Tree\+Handler@{Inode\+Cmd\+Tree\+Handler}}
+\index{Inode\+Cmd\+Tree\+Handler@{Inode\+Cmd\+Tree\+Handler}!inodecmd.\+c@{inodecmd.\+c}}
+\subsubsection[{Inode\+Cmd\+Tree\+Handler}]{\setlength{\rightskip}{0pt plus 5cm}V\+O\+I\+D Inode\+Cmd\+Tree\+Handler (
+\begin{DoxyParamCaption}
+\item[{U\+I\+N\+T4}]{u4\+Inode\+No}
+\end{DoxyParamCaption}
+)}}\label{inodecmd_8c_a2ea2fdd045177335a3a2f8cd89678cb9}
+
+
+ Function Name \+: Inode\+Cmd\+Tree\+Handler
+
+Description \+: This is the handler function for the command 'tree'. This function prints the directory/files tree starting at the given inode.
+
+Input \+: u4\+Inode\+No -\/ Root inode to start.
+
+Output \+: None
+
+Returns \+: None 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodecmd_8c_a2ea2fdd045177335a3a2f8cd89678cb9_cgraph}
+\end{center}
+\end{figure}
+
+

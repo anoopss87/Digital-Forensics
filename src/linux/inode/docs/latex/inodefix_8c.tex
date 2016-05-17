@@ -1,0 +1,78 @@
+\hypertarget{inodefix_8c}{\section{src/inodefix.c File Reference}
+\label{inodefix_8c}\index{src/inodefix.\+c@{src/inodefix.\+c}}
+}
+{\ttfamily \#include \char`\"{}inodeinc.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}inodetime.\+h\char`\"{}}\\*
+Include dependency graph for inodefix.\+c\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodefix_8c__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+I\+N\+T4 \hyperlink{inodefix_8c_a0cf855704a34cb63b52487e75b12052c}{Inode\+Fix\+Execute} ()
+\item 
+I\+N\+T4 \hyperlink{inodefix_8c_adbd08c2df1e429581a73b0ffd6108cb6}{Inode\+Fix\+Root\+Data\+Block\+Ptr} (struct ext3\+\_\+inode $\ast$p\+Inode)
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\hypertarget{inodefix_8c_a0cf855704a34cb63b52487e75b12052c}{\index{inodefix.\+c@{inodefix.\+c}!Inode\+Fix\+Execute@{Inode\+Fix\+Execute}}
+\index{Inode\+Fix\+Execute@{Inode\+Fix\+Execute}!inodefix.\+c@{inodefix.\+c}}
+\subsubsection[{Inode\+Fix\+Execute}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Fix\+Execute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}}\label{inodefix_8c_a0cf855704a34cb63b52487e75b12052c}
+
+
+ Function Name \+: Inode\+Fix\+Execute
+
+Description \+: This Function is used to recover the corrupted directories children directories. Please refer the documentation for the recovery algorithm.
+
+Input \+: None
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, on successful recovery I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodefix_8c_a0cf855704a34cb63b52487e75b12052c_cgraph}
+\end{center}
+\end{figure}
+
+
+\hypertarget{inodefix_8c_adbd08c2df1e429581a73b0ffd6108cb6}{\index{inodefix.\+c@{inodefix.\+c}!Inode\+Fix\+Root\+Data\+Block\+Ptr@{Inode\+Fix\+Root\+Data\+Block\+Ptr}}
+\index{Inode\+Fix\+Root\+Data\+Block\+Ptr@{Inode\+Fix\+Root\+Data\+Block\+Ptr}!inodefix.\+c@{inodefix.\+c}}
+\subsubsection[{Inode\+Fix\+Root\+Data\+Block\+Ptr}]{\setlength{\rightskip}{0pt plus 5cm}I\+N\+T4 Inode\+Fix\+Root\+Data\+Block\+Ptr (
+\begin{DoxyParamCaption}
+\item[{struct ext3\+\_\+inode $\ast$}]{p\+Inode}
+\end{DoxyParamCaption}
+)}}\label{inodefix_8c_adbd08c2df1e429581a73b0ffd6108cb6}
+
+
+ Function Name \+: Inode\+Fix\+Root\+Data\+Block\+Ptr
+
+Description \+: This Function is used to fix the root inode's data block pointer if it is corrupted.
+
+Input \+: p\+Inode -\/ Root Inode structure
+
+Output \+: None
+
+Returns \+: I\+N\+O\+D\+E\+\_\+\+S\+U\+C\+C\+E\+S\+S, if the data block pointer is fixed I\+N\+O\+D\+E\+\_\+\+F\+A\+I\+L\+U\+R\+E otherwise 
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{inodefix_8c_adbd08c2df1e429581a73b0ffd6108cb6_cgraph}
+\end{center}
+\end{figure}
+
+

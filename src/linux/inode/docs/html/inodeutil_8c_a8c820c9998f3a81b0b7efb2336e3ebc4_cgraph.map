@@ -1,0 +1,5 @@
+<map id="InodeUtilReadInode" name="InodeUtilReadInode">
+<area shape="rect" id="node2" href="$inodeutil_8c.html#a5aa634acb8fba879d55a5de096d3997c" title="InodeUtilGetInodeOffset" alt="" coords="192,5,355,32"/>
+<area shape="rect" id="node3" href="$inodeutil_8c.html#a3add91b54cfb3e27f802ac8ab1b9ceb4" title="InodeUtilReadDataOffset" alt="" coords="403,31,573,57"/>
+<area shape="rect" id="node4" href="$inodeutil_8c.html#a13b5c799edb137a494ad497145f59a56" title="InodeUtilReadDataBlock" alt="" coords="622,31,789,57"/>
+</map>
